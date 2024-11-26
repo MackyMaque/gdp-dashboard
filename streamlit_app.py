@@ -12,5 +12,5 @@ def display_title(app_title, subtitle):
 
 st.set_page_config(page_title="Title Template Example", layout="centered")
 
-display_title("MAQUE, JERYLLE ", "A dynamic title template for your app")
+display_title("MAQUE, JERYLLE ", "BSCpE-1B")
 
