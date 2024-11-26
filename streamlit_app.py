@@ -39,9 +39,9 @@ def main():
        
     ]
     trainings_seminars = [
-        "Advanced Python Programming (2021)",
-        "Machine Learning Bootcamp (2020)",
-        "Leadership and Management Workshop (2019)"
+        "Seminar on Theoretical Driving Course and Defensive driving",
+        "Work Immersion / On The Job Training",
+    
     ]
 
     # Data for the school attended table (organized by educational level)
@@ -106,6 +106,9 @@ def main():
     st.subheader("Trainings and Seminars")
     for training in trainings_seminars:
       st.write(f"- {training}")
+
+
+    
         
     
 if __name__ == "__main__":
