@@ -38,8 +38,8 @@ def main():
             "Golden Acres Elementary School",
             "Justiniana Edera Elementary School",
             "Don Ruben E Ecleo Sr. Memorial National High School",
-            "Riverdale Senior High",
-            "Springfield University"
+            "Don Jose Ecleo Memorial College",
+            "Surigao Del Norte State University"
         ],
         "Location": [
             "las pinas, Metro Manila",
@@ -52,11 +52,11 @@ def main():
             "Elementary Education",
             "Elementary Education",
             "Junior High School",
-            "Senior High School (STEM)",
+            "Senior High School (TVL-ICT)",
             "Bachelor of Science in Computer Engineering"
         ],
         "Year Graduated": [
-            2011, 2012, 2016, 2019, 2023
+            -, 2012, 2016, 2019, 2023
         ]
     }
 
