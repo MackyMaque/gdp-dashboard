@@ -9,8 +9,8 @@ def main():
     st.header("Biography")
 
     # Hardcoded biography details
-    full_name = "John Doe"
-    address = "123 Main Street, Springfield, USA"
+    full_name = "Jerylle Morados Maque"
+    address = "P4 Justiniana Edera San Jose Dinagat Islands"
     school_attended = "Springfield University"
     achievements = [
         "Graduated with Honors",
@@ -42,4 +42,6 @@ def main():
         st.write(f"- {training}")
 
 if __name__ == "__main__":
+    main()
+
     main()
