@@ -3,11 +3,12 @@ import streamlit as st
 def main():
    
     st.title("MAQUE, JERYLLE M. ")
-    st.header("BSCpE -1B")
+    st.header("BSCpE -1B ")
+    st.write("")
     st.markdown('<hr>', unsafe_allow_html=True)
     # Display biography details in a blog-like format
     st.header("Biography")
-
+    st.write("Surigao Del Norte State University")
     # Hardcoded biography details
     full_name = "John Doe"
     address = "123 Main Street, Springfield, USA"
