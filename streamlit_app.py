@@ -42,11 +42,11 @@ def main():
             "Springfield University"
         ],
         "Location": [
-            "Sunrise, USA",
-            "Green Valley, USA",
-            "Oceanview, USA",
-            "Riverdale, USA",
-            "Springfield, USA"
+            "las pinas, Metro Manila",
+            "Justiniana Edera San Jose PDI",
+            "Don Ruben San Jose PDI",
+            "Justiniana Edera San Jose",
+            " Taft Surigao City Surigao Del Norte "
         ],
         "Degree/Program": [
             "Elementary Education",
