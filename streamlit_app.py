@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    image_path = '/home/eb204-u7/Pictures/h.png'  # Relative path inside the "images" folder
+    image_path = 'name/h.png'  # Relative path inside the "images" folder
     st.image(image_path)
 
     st.title("MAQUE, JERYLLE M. ")
