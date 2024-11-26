@@ -4,6 +4,7 @@ def main():
 
     st.title("MAQUE, JERYLLE M.")
     st.subheader("BSCpE 1B")
+    st.write("Surigao Del Norte State University")
     st.header("Biography")
 
     # Hardcoded biography details
