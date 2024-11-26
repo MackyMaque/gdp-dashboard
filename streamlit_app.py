@@ -1,7 +1,5 @@
 import streamlit as st
 
-import streamlit as st
-
 def display_title(app_title, subtitle):
     """
     Displays the app title and subtitle with formatting in Streamlit.
