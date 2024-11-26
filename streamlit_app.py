@@ -1,8 +1,7 @@
 import streamlit as st
 
 def main():
-    image_path = 'Pictures/h.png' 
-    st.image(image_path, caption='Sample Image', use_column_width=True)
+   
     st.title("MAQUE, JERYLLE M. ")
     st.header("BSCpE -1B ")
     st.write("Surigao Del Norte State University")
