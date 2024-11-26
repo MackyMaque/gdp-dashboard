@@ -63,10 +63,10 @@ def main():
     # Display the biography in sections with left-aligned content
     st.subheader("Full Name")
     st.write(full_name)
-
+    
     st.subheader("Home Address")
     st.write(address)
-
+    st.markdown('<hr>', unsafe_allow_html=True)
     st.subheader("School Attended")
     st.table(school_df)  # Display the school table
 
