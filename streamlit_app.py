@@ -24,12 +24,47 @@ def main():
         "Leadership and Management Workshop (2019)"
     ]
 
-    # Data for the school attended table
+    # Data for the school attended table (organized by educational level)
     school_data = {
-        "School Name": [school_attended],
-        "Location": ["Springfield, USA"],
-        "Degree": ["Bachelor of Science in Computer Engineering"],
-        "Year Graduated": [2023]
+        "Educational Level": [
+            "Elementary",
+            "Elementary",
+            "Junior High",
+            "Junior High",
+            "Senior High",
+            "Senior High",
+            "College"
+        ],
+        "School Name": [
+            "Sunrise Primary School",
+            "Green Valley Elementary",
+            "Oceanview Junior High",
+            "Mountain Peak Junior High",
+            "Riverdale Senior High",
+            "Sunshine Senior High",
+            "Springfield University"
+        ],
+        "Location": [
+            "Sunrise, USA",
+            "Green Valley, USA",
+            "Oceanview, USA",
+            "Mountain Peak, USA",
+            "Riverdale, USA",
+            "Sunshine, USA",
+            "Springfield, USA"
+        ],
+        "Degree/Program": [
+            "Elementary Education",
+            "Elementary Education",
+            "Junior High School",
+            "Junior High School",
+            "Senior High School (STEM)",
+            "Senior High School (ABM)",
+            "Bachelor of Science in Computer Engineering"
+        ],
+        "Year Graduated": [
+            2011, 2012, 2016, 2017, 2019, 2020, 2023
+        ]
     }
 
     school_df = pd.DataFrame(school_data)
