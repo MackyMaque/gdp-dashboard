@@ -25,6 +25,7 @@ def main():
     st.title("MAQUE, JERYLLE M.")
     st.subheader("BSCpE 1B")
     st.write("Surigao Del Norte State University")
+    st.write("Activity In Programming Logic and Design")
     st.markdown('<hr>', unsafe_allow_html=True)
     st.header("Personal Information")                                                                                                                                                                 
     
