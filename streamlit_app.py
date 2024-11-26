@@ -22,22 +22,26 @@ def main():
         "Leadership and Management Workshop (2019)"
     ]
 
-    # Display the biography in sections
+    # Display the biography in sections with left-aligned content
     st.subheader("Full Name")
-    st.markdown(f"**{full_name}**")
+    st.write(full_name)
 
     st.subheader("Address")
-    st.markdown(f"**{address}**")
+    st.write(address)
 
     st.subheader("School Attended")
-    st.markdown(f"**{school_attended}**")
+    st.write(school_attended)
 
     st.subheader("Achievements")
-    st.markdown("\n".join([f"- {achievement}" for achievement in achievements]))
+    for achievement in achievements:
+        st.write(f"- {achievement}")
 
     st.subheader("Trainings and Seminars")
-    st.markdown("\n".join([f"- {training}" for training in trainings_seminars]))
+    for training in trainings_seminars:
+        st.write(f"- {training}")
 
 if __name__ == "__main__":
     main()
+
+
 
