@@ -20,7 +20,7 @@ st.set_page_config(page_title="Picture Uploader", layout="centered")
 st.title("Upload Your Picture")
 
 # File uploader widget
-uploaded_file = st.file_uploader("Choose an image file", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("h", type=["png"])
 
 if uploaded_file is not None:
     # Open and display the uploaded image
