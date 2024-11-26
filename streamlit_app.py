@@ -97,7 +97,7 @@ def main():
 
     st.subheader("School Attended")
     st.table(school_df)  # Display the school table
-
+    st.markdown('<hr>', unsafe_allow_html=True)
     st.subheader("Achievements")
     for achievement in achievements:
         st.write(f"- {achievement}")
