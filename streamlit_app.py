@@ -34,9 +34,8 @@ def main():
     birth_date = "April 06, 2006"
     place_of_birth = "Zapote Bacoor Cavite "
     achievements = [
-        "Graduated with Honors",
-        "Employee of the Year 2020",
-        "Published Research on Artificial Intelligence"
+        "Graduated with Honors on TVL ICT STRAND in SHS at DJEMC "
+       
     ]
     trainings_seminars = [
         "Advanced Python Programming (2021)",
