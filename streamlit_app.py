@@ -35,9 +35,9 @@ def main():
             "College"
         ],
         "School Name": [
-            "Sunrise Primary School",
-            "Green Valley Elementary",
-            "Oceanview Junior High",
+            "Golden Acres Elementary School",
+            "Justiniana Edera Elementary School",
+            "Don Ruben E Ecleo Sr. Memorial National High School",
             "Riverdale Senior High",
             "Springfield University"
         ],
