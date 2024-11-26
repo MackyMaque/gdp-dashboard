@@ -118,7 +118,11 @@ def main():
     image_url = 'https://scontent.fcgy2-4.fna.fbcdn.net/v/t1.15752-9/462561930_1786046622221725_1031899513280745191_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHDD5b2JJvY3ImsnhEts3l4XFLo_zRnlv5cUuj_NGeW_l0rCA6lQgcrnt3X97pGcarrDEcADDivRDUWvQOeavUD&_nc_ohc=tllPn-pVDLMQ7kNvgGaXwEe&_nc_zt=23&_nc_ht=scontent.fcgy2-4.fna&oh=03_Q7cD1QFko6KA9Cl3Yqr8QdZZtClMVtIKpRtRD9QJQNnIAupYGA&oe=676CF9CE'
     st.image(image_url, caption='Actual Pic')
     st.markdown('<hr>', unsafe_allow_html=True)
-    st.header("Seminar on Theoretical Driving Course and Defensive driving")
+    st.header("Work Immersion / On The Job Training")
+    st.write("Work site: Provincial capitol/Provincial Governor's Office")
+    st.write("Number of  Hours : 80 hours or 10 days")
+    st.write("Date:           May ,2024")
+    
     
         
     
