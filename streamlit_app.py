@@ -18,5 +18,5 @@ def display_title(app_title, subtitle):
 # Example usage
 st.set_page_config(page_title="Title Template Example", layout="centered")
 
-display_title("Streamlit App", "A dynamic title template for your app")
+display_title("MAQUE, JERYLLE ", "A dynamic title template for your app")
 
