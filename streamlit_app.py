@@ -1,21 +1,36 @@
 import streamlit as st
 
+def main():
+    # Set the title of the Streamlit app
+    st.title("My Biography")
 
-def display_title(app_title, subtitle):
-    
-    st.markdown(f"""
-        <div style="text-align: center; margin-bottom: 20px;">
-            <h1 style="color: #4CAF50; font-size: 3em; margin-bottom: 0;">{app_title}</h1>
-            <h3 style="color: #6c757d; margin-top: 5px;">{subtitle}</h3>
-        </div>
-    """, unsafe_allow_html=True)
+    # Introduction section
+    st.header("Introduction")
+    st.write("Welcome to my biography app! Please fill in your details below.")
 
+    # Input fields for user to provide their biography details
+    name = st.text_input("What is your name?", "")
+    age = st.number_input("How old are you?", min_value=0, max_value=150, step=1, value=0)
+    profession = st.text_input("What is your profession?", "")
+    hobbies = st.text_area("What are your hobbies?", "")
+    additional_info = st.text_area("Additional Information", "")
 
-st.set_page_config(page_title="Title Template Example", layout="centered")
+    # Display biography details when user clicks the button
+    if st.button("Show My Biography"):
+        st.subheader("Biography")
+        if name:
+            st.write(f"**Name:** {name}")
+        if age > 0:
+            st.write(f"**Age:** {age}")
+        if profession:
+            st.write(f"**Profession:** {profession}")
+        if hobbies:
+            st.write(f"**Hobbies:** {hobbies}")
+        if additional_info:
+            st.write(f"**Additional Information:** {additional_info}")
 
-display_title("MAQUE, JERYLLE ", "BSCpE-1B")
-
-st.image("/home/eb204-u7/Pictures/h.png", caption="This is my picture.")
+if __name__ == "__main__":
+    main()
 
 
 
