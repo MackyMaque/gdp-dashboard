@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 def main():
 
@@ -6,8 +7,8 @@ def main():
     st.subheader("BSCpE 1B")
     st.write("Surigao Del Norte State University")
     st.markdown('<hr>', unsafe_allow_html=True)
-    st.header("Biography")
-
+    st.header("Biography")                                                                                                                                                                 
+    
     # Hardcoded biography details
     full_name = "Jerylle Morados Maque"
     address = "P4 Justiniana Edera San Jose Dinagat Islands"
@@ -23,6 +24,16 @@ def main():
         "Leadership and Management Workshop (2019)"
     ]
 
+    # Data for the school attended table
+    school_data = {
+        "School Name": [school_attended],
+        "Location": ["Springfield, USA"],
+        "Degree": ["Bachelor of Science in Computer Engineering"],
+        "Year Graduated": [2023]
+    }
+
+    school_df = pd.DataFrame(school_data)
+
     # Display the biography in sections with left-aligned content
     st.subheader("Full Name")
     st.write(full_name)
@@ -31,7 +42,7 @@ def main():
     st.write(address)
 
     st.subheader("School Attended")
-    st.write(school_attended)
+    st.table(school_df)  # Display the school table
 
     st.subheader("Achievements")
     for achievement in achievements:
@@ -42,6 +53,4 @@ def main():
         st.write(f"- {training}")
 
 if __name__ == "__main__":
-    main()
-
     main()
