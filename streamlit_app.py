@@ -7,7 +7,7 @@ def main():
     st.subheader("BSCpE 1B")
     st.write("Surigao Del Norte State University")
     st.markdown('<hr>', unsafe_allow_html=True)
-    st.header("Biography")                                                                                                                                                                 
+    st.header("Personal information")                                                                                                                                                                 
     
     # Hardcoded biography details
     full_name = "Jerylle Morados Maque"
@@ -73,7 +73,7 @@ def main():
     st.subheader("Full Name")
     st.write(full_name)
 
-    st.subheader("Address")
+    st.subheader("Home Address")
     st.write(address)
 
     st.subheader("School Attended")
