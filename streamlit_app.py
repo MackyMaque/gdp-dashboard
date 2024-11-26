@@ -105,7 +105,8 @@ def main():
 
     st.subheader("Trainings and Seminars")
     for training in trainings_seminars:
-        st.write(f"- {training}")
+      st.write(f"- {training}")
+        
         st.write("Seminar on Theoretical Driving Course and Defensive driving")
         st.write("Date.       : July 20, 2024")
         st.write("Venue     : Don Ruben Gymnasium San jose Dinagat Islands")
