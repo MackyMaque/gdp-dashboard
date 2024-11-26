@@ -56,7 +56,7 @@ def main():
             "Bachelor of Science in Computer Engineering"
         ],
         "Year Graduated": [
-            -, 2012, 2016, 2019, 2023
+            0, 2018, 2022, 2024, 0000
         ]
     }
 
