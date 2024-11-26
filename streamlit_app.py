@@ -15,10 +15,8 @@ st.set_page_config(page_title="Title Template Example", layout="centered")
 
 display_title("MAQUE, JERYLLE ", "BSCpE-1B")
 
-st.title("Displaying a Local Picture")
+st.image("/home/eb204-u7/Pictures/h.png", caption="This is my picture.")
 
-# Display an image from the local directory
-st.image("h.png", caption="This is a local picture.", use_column_width=True)
 
 
 
