@@ -3,7 +3,7 @@ import pandas as pd
 
 def main():
     # Image URL
-    image_url = 'https://scontent.fcgy2-3.fna.fbcdn.net/v/t39.30808-6/455820006_3783099495305708_4621470868321093776_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEEbuYSRr_7fBcHf0TWwwB2Ki6BEeMTYxIqLoER4xNjEpRgFYoa2dcmd-41Q5jFaR710XJsNOpX-WNzD0no4oIK&_nc_ohc=CLd4jC4hChEQ7kNvgE8HZjk&_nc_zt=23&_nc_ht=scontent.fcgy2-3.fna&_nc_gid=AjrSAPH6PLHfcA5ldtglSSG&oh=00_AYAliR12CrWwDT88eml45dMBngc774Vvp3rBauBkcGwY6Q&oe=674B45BA'
+    image_url = 'https://3863c30cf6.cbaul-cdnwnd.com/84666889e4c11d1601e4759f497cf43b/200000009-c5d6bc5d6d/1000046473.webp?ph=3863c30cf6'
     
     # Display the image with custom styling (making it larger and circular)
     st.markdown(
