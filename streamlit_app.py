@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 def main():
-    image_url = 'https://www.facebook.com/photo/?fbid=3783099498639041&set=a.1376906402591708'
+    image_url = 'https://scontent.fcgy2-3.fna.fbcdn.net/v/t39.30808-6/455820006_3783099495305708_4621470868321093776_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEEbuYSRr_7fBcHf0TWwwB2Ki6BEeMTYxIqLoER4xNjEpRgFYoa2dcmd-41Q5jFaR710XJsNOpX-WNzD0no4oIK&_nc_ohc=CLd4jC4hChEQ7kNvgE8HZjk&_nc_zt=23&_nc_ht=scontent.fcgy2-3.fna&_nc_gid=AjrSAPH6PLHfcA5ldtglSSG&oh=00_AYAliR12CrWwDT88eml45dMBngc774Vvp3rBauBkcGwY6Q&oe=674B45BA'
     st.image(image_url)
     st.title("MAQUE, JERYLLE M.")
     st.subheader("BSCpE 1B")
