@@ -12,8 +12,8 @@ def main():
     # Hardcoded biography details
     full_name = "Jerylle Morados Maque"
     address = "P4 Justiniana Edera San Jose Dinagat Islands"
-    birth_date = "January 1, 2000"
-    place_of_birth = "Surigao City, Philippines"
+    birth_date = "April 06, 2006"
+    place_of_birth = "Zapote Bacoor Cavite "
     achievements = [
         "Graduated with Honors",
         "Employee of the Year 2020",
