@@ -4,7 +4,7 @@ def main():
    
     st.title("MAQUE, JERYLLE M. ")
     st.header("BSCpE -1B ")
-   st.write("Surigao Del Norte State University")
+    st.write("Surigao Del Norte State University")
     st.write("")
     st.markdown('<hr>', unsafe_allow_html=True)
     # Display biography details in a blog-like format
