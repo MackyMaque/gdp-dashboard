@@ -12,6 +12,8 @@ def main():
     # Hardcoded biography details
     full_name = "Jerylle Morados Maque"
     address = "P4 Justiniana Edera San Jose Dinagat Islands"
+    birth_date = "January 1, 2000"
+    place_of_birth = "Surigao City, Philippines"
     achievements = [
         "Graduated with Honors",
         "Employee of the Year 2020",
@@ -66,7 +68,15 @@ def main():
     
     st.subheader("Home Address")
     st.write(address)
+
+    st.subheader("Birth Date")
+    st.write(birth_date)
+
+    st.subheader("Place of Birth")
+    st.write(place_of_birth)
+
     st.markdown('<hr>', unsafe_allow_html=True)
+
     st.subheader("School Attended")
     st.table(school_df)  # Display the school table
 
