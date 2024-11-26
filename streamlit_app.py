@@ -2,8 +2,25 @@ import streamlit as st
 import pandas as pd
 
 def main():
+    # Image URL
     image_url = 'https://scontent.fcgy2-3.fna.fbcdn.net/v/t39.30808-6/455820006_3783099495305708_4621470868321093776_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEEbuYSRr_7fBcHf0TWwwB2Ki6BEeMTYxIqLoER4xNjEpRgFYoa2dcmd-41Q5jFaR710XJsNOpX-WNzD0no4oIK&_nc_ohc=CLd4jC4hChEQ7kNvgE8HZjk&_nc_zt=23&_nc_ht=scontent.fcgy2-3.fna&_nc_gid=AjrSAPH6PLHfcA5ldtglSSG&oh=00_AYAliR12CrWwDT88eml45dMBngc774Vvp3rBauBkcGwY6Q&oe=674B45BA'
-    st.image(image_url)
+    
+    # Display the image with custom size and circular shape
+    st.markdown(
+        """
+        <style>
+        .circle-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    
+    st.image(image_url, use_column_width=False, width=150, caption="Jerylle Morados Maque", output_format="JPEG",  use_container_width=False)
+
+    # Title and other sections
     st.title("MAQUE, JERYLLE M.")
     st.subheader("BSCpE 1B")
     st.write("Surigao Del Norte State University")
@@ -43,11 +60,11 @@ def main():
             "Surigao Del Norte State University"
         ],
         "Location": [
-            "las pinas, Metro Manila",
-            "Justiniana Edera San Jose PDI",
-            "Don Ruben San Jose PDI",
-            "Justiniana Edera San Jose",
-            " Taft Surigao City Surigao Del Norte "
+            "Las Pinas, Metro Manila",
+            "Justiniana Edera, San Jose PDI",
+            "Don Ruben, San Jose PDI",
+            "Justiniana Edera, San Jose",
+            "Taft, Surigao City, Surigao Del Norte"
         ],
         "Degree/Program": [
             "Elementary Education",
