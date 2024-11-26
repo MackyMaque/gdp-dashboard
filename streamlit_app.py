@@ -124,7 +124,7 @@ def main():
     st.write("Date:           May ,2024")
 
     image_url = 'https://3863c30cf6.cbaul-cdnwnd.com/84666889e4c11d1601e4759f497cf43b/200000013-7391073912/1000048674.webp?ph=3863c30cf6'
-    st.image(image_url, caption='Image from the web')
+    st.image(image_url, caption='Picture of Certificate')
     
         
     
