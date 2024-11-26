@@ -2,9 +2,8 @@ import streamlit as st
 
 def main():
 
-    st.title("My Biography")
-    st.image("me.jpeg")
-    # Display biography details in a blog-like format
+    st.title("MAQUE, JERYLLE M.")
+    st.subheader("BSCpE 1B")
     st.header("Biography")
 
     # Hardcoded biography details
