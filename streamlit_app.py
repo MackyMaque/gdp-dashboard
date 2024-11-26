@@ -1,13 +1,7 @@
 import streamlit as st
 
 def display_title(app_title, subtitle):
-    """
-    Displays the app title and subtitle with formatting in Streamlit.
-
-    Parameters:
-    - app_title (str): The main title of the app.
-    - subtitle (str): The subtitle displayed under the main title.
-    """
+    
     st.markdown(f"""
         <div style="text-align: center; margin-bottom: 20px;">
             <h1 style="color: #4CAF50; font-size: 3em; margin-bottom: 0;">{app_title}</h1>
