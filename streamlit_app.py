@@ -1,9 +1,10 @@
 import streamlit as st
 
 def main():
-    # Set the title of the Streamlit app
-    st.title("My Biography")
-
+   
+    st.title("MAQUE, JERYLLE M. ")
+    st.header("BSCpE -1B")
+    st.markdown('<hr>', unsafe_allow_html=True)
     # Display biography details in a blog-like format
     st.header("Biography")
 
