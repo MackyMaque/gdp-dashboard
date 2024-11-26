@@ -3,7 +3,7 @@ import pandas as pd
 
 def main():
     image_url = 'https://www.facebook.com/photo/?fbid=3783099498639041&set=a.1376906402591708'
-    st.image(image_url, caption='Image from the web')
+    st.image(image_url)
     st.title("MAQUE, JERYLLE M.")
     st.subheader("BSCpE 1B")
     st.write("Surigao Del Norte State University")
