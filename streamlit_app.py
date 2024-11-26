@@ -106,8 +106,12 @@ def main():
     st.subheader("Trainings and Seminars")
     for training in trainings_seminars:
       st.write(f"- {training}")
-
-
+    st.markdown('<hr>', unsafe_allow_html=True)
+    st.write("Seminar on Theoretical Driving Course and Defensive driving")
+    st.write("Date.       : July 20, 2024")
+    st.write("Venue     : Don Ruben Gymnasium San jose Dinagat Islands")
+    st.write("Speaker  :  LTO, Maam Marife Gambe Head, Traffic Safety Unit ")
+    st.write("Number of Hours : 8 Hours")
     
         
     
