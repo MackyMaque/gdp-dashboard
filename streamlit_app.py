@@ -2,58 +2,42 @@ import streamlit as st
 import pandas as pd
 
 def main():
-    # Image URL for background
-    background_image_url = 'https://image.slidesdocs.com/responsive-images/background/night-dark-galaxy-star-nature-black-powerpoint-background_8b7446a2b3__960_540.jpg'
+    # Image URL
+    image_url = 'https://3863c30cf6.cbaul-cdnwnd.com/84666889e4c11d1601e4759f497cf43b/200000009-c5d6bc5d6d/1000046473.webp?ph=3863c30cf6'
 
-    # Custom CSS for background and image styling
+    # Custom CSS for image and layout
     st.markdown(
         """
         <style>
-        /* Set the background image */
-        body {
-            background-image: url('https://image.slidesdocs.com/responsive-images/background/night-dark-galaxy-star-nature-black-powerpoint-background_8b7446a2b3__960_540.jpg');
-            background-size: cover;  /* Ensure the background covers the full screen */
-            background-position: center;
-            background-attachment: fixed;
-            font-family: 'Arial', sans-serif;
-            color: white;  /* Set text color to white for better visibility on dark background */
-        }
-
-        /* Custom styling for circular image */
         .circle-img {
-            width: 180px;
-            height: 180px;
+            width: 180px;  /* Adjust the image size */
+            height: 180px; /* Adjust the image size */
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid #4CAF50;  /* Green border for modern look */
         }
-
         .header {
             color: #4CAF50;  /* Green color for headers */
             font-size: 2em;
         }
-
         .subheader {
-            color: #f0f0f0;
+            color: #555;
         }
-
         hr {
             border: 1px solid #4CAF50;
             margin-top: 20px;
             margin-bottom: 20px;
         }
-
         .section-title {
             font-size: 1.5em;
             margin-top: 30px;
-            color: #e0e0e0;
+            color: #333;
         }
         </style>
         """, unsafe_allow_html=True
     )
 
-    # Display the circular image
-    image_url = 'https://3863c30cf6.cbaul-cdnwnd.com/84666889e4c11d1601e4759f497cf43b/200000009-c5d6bc5d6d/1000046473.webp?ph=3863c30cf6'
+    # Display the image with custom styling (making it larger and circular)
     st.markdown(f'<img src="{image_url}" class="circle-img">', unsafe_allow_html=True)
 
     # Title and other sections
@@ -63,13 +47,13 @@ def main():
     st.write("Activity In Programming Logic and Design")
     st.markdown('<hr>', unsafe_allow_html=True)
 
-    st.header("Personal Information")
+    st.header("Personal Information") 
 
     # Hardcoded biography details
     full_name = "Jerylle Morados Maque"
     address = "P4 Justiniana Edera San Jose Dinagat Islands"
     birth_date = "April 06, 2006"
-    place_of_birth = "Zapote Bacoor Cavite"
+    place_of_birth = "Zapote Bacoor Cavite "
     achievements = [
         "Graduated with Honors on TVL ICT STRAND in SHS at DJEMC"
     ]
@@ -167,6 +151,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
