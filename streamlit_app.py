@@ -7,12 +7,11 @@ def main():
     st.subheader("BSCpE 1B")
     st.write("Surigao Del Norte State University")
     st.markdown('<hr>', unsafe_allow_html=True)
-    st.header("Personal information")                                                                                                                                                                 
+    st.header("Personal Information")                                                                                                                                                                 
     
     # Hardcoded biography details
     full_name = "Jerylle Morados Maque"
     address = "P4 Justiniana Edera San Jose Dinagat Islands"
-    school_attended = "Springfield University"
     achievements = [
         "Graduated with Honors",
         "Employee of the Year 2020",
@@ -30,8 +29,6 @@ def main():
             "Elementary",
             "Elementary",
             "Junior High",
-            "Junior High",
-            "Senior High",
             "Senior High",
             "College"
         ],
@@ -39,31 +36,25 @@ def main():
             "Sunrise Primary School",
             "Green Valley Elementary",
             "Oceanview Junior High",
-            "Mountain Peak Junior High",
             "Riverdale Senior High",
-            "Sunshine Senior High",
             "Springfield University"
         ],
         "Location": [
             "Sunrise, USA",
             "Green Valley, USA",
             "Oceanview, USA",
-            "Mountain Peak, USA",
             "Riverdale, USA",
-            "Sunshine, USA",
             "Springfield, USA"
         ],
         "Degree/Program": [
             "Elementary Education",
             "Elementary Education",
             "Junior High School",
-            "Junior High School",
             "Senior High School (STEM)",
-            "Senior High School (ABM)",
             "Bachelor of Science in Computer Engineering"
         ],
         "Year Graduated": [
-            2011, 2012, 2016, 2017, 2019, 2020, 2023
+            2011, 2012, 2016, 2019, 2023
         ]
     }
 
